@@ -4,11 +4,11 @@ on:
   # 2. ¿Qué evento(s) quieres usar para disparar este workflow? (añade mínimo 2)
   push:
     branches:
-      - main
+      - master
       - develop
   pull_request:
     branches:
-      - main
+      - master
       - develop
       #    Piensa en cuándo quieres que se ejecute (push, pull_request, manualmente...).
       # 2b. (Opcional) ¿Quieres restringirlo a alguna rama específica?
